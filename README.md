@@ -15,10 +15,15 @@ sudo pip install requests
 
 ## step 2:-
 import requests
+
 def get_location():
+
     data=requests.get("http://ip-api.com/json/").json()
+    
     return data
+    
 if __name__=="__main__":
+
     print(get_location())
     
     
