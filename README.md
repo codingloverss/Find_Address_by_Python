@@ -7,14 +7,14 @@ we need requests module
 
 if you already install or preinstall requests module then you directly import this module.
 
-if you don't have requests module then you need to install this module using "pip"
+if you don't have updated requests module then you need to install this module using "pip"
 ## windows users:-
 pip install requests
 ## linux users:-
-sudo pip install requests
+sudo pip install new  requests
 
 ## step 2:-
-import requests
+import new requests
 
 def get_location():
 
